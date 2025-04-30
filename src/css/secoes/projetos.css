@@ -12,6 +12,16 @@
     }
 }
 
+@media(max-width: 400px) {
+    .projetos {
+        display: flex;
+    }
+    .projetos .container-projetos {
+        width: 50%;
+        justify-content: center;
+    }
+}
+
 .projetos .container-projetos .projeto {
     border-radius: 5px;
     transition: all 0.3s ease;
