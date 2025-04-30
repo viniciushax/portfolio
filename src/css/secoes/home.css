@@ -35,13 +35,14 @@
 .home .img-home .img-box img {
     width: 100%;
     border-radius: 50%;
-    border: 10px solid transparent;
+    border: 4px solid var(--cor-secundaria);
 }
 
 .home .texto-home p {
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-grande);
     margin-bottom: 10px;
+    font-style: italic;
 }
 
 .home .texto-home h1 {
@@ -56,4 +57,10 @@
     font-size: var(--fonte-grande);
     letter-spacing: 2px;
     margin-bottom: 30px;
+    font-style: italic;
+}
+
+.home {
+    border-bottom: 2px solid var(--cor-marrom);
+
 }

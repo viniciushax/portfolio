@@ -24,21 +24,28 @@
 .habilidades .container-habilidades .informacoes:hover p,
 .habilidades .container-habilidades .informacoes:hover h3,
 .habilidades .container-habilidades .informacoes:hover .logo i{
-    color: var(--cor-primaria);
+    color: var(--cor-fundo-escuro);
 }
 
 .habilidades .container-habilidades .informacoes h3 {
     font-size: var(--fonte-extra-grande);
-    font-weight: 500;
+    font-weight: 450;
     margin-bottom: 20px;
-    color: var(--cor-primaria);      
+    color: var(--cor-marrom);      
 }
 
 .habilidades .container-habilidades .informacoes p {
     font-size: 1.8rem;
     font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    font-weight: 500;
+    font-style: italic;
 }
 
 .habilidades .container-habilidades .informacoes .logo i {
     font-size: 8rem;
+}
+
+.habilidades {
+    border-bottom: 2px solid var(--cor-marrom);
 }

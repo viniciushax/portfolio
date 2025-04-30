@@ -28,8 +28,9 @@
 
 .sobre-mim .informacoes-sobre-mim p {
     font-size: 1.8rem;
-    font-weight: 300;
+    font-weight: 600;
     margin-bottom: 20px;
+    font-style: italic;
 }
 
 @media(max-width: 1280px) { 
@@ -59,4 +60,9 @@
     .sobre-mim .informacoes-sobre-mim {  
         max-width: 100%;                   
     }
+}
+
+.sobre-mim {
+    background-color: #94c7b6;
+    border-bottom: 2px solid var(--cor-marrom);
 }

@@ -1,16 +1,18 @@
 .header {
     padding: 30px 15px;
+    background-color: var(--cor-fundo-laranja-claro);
+    border-bottom: 2px solid var(--cor-marrom);
 }
 
 .header .logo {
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-extra-grande);
-    color: var(--cor-branca);
-    border: 2px solid var(--cor-branca);
+    color: var(--cor-marrom);
+    border: 3px solid var(--cor-marrom);
     border-radius: 50%;
-    width: 65px;
-    height: 65px;
-    line-height: 63px;
+    width: 100px;
+    height: 100px;
+    line-height: 92px;
     text-align: center;
     transition: 0.4s;
 }
@@ -22,13 +24,14 @@
 
 .header nav ul {
     display: flex;
+    
 }
 
 .header nav li a {
     text-transform: capitalize;
-    color: var(--cor-branca);
-    font-size: 2rem;
-    font-weight: 500;
+    color: var(--cor-marrom);
+    font-size: 2.4rem;
+    font-weight: 600;
     padding: 10px 20px;
     transition: 0.3s;
     border-radius: 50px;
@@ -38,7 +41,8 @@
 
 .header nav ul li a:hover{
     background-color: var(--cor-primaria);;
-    color: var(--cor-branca);
+    color: var(--cor-marrom);
+    border: 1px solid var(--cor-marrom);
 }
 
 .header .menu{
@@ -58,7 +62,7 @@
 .header .hamburguer {
     position: relative;
     display: block;
-    background-color: var(--cor-branca);
+    background-color: var(--cor-marrom);
     width: 30px;
     height: 2px;
     top: 29px;
@@ -68,7 +72,7 @@
 
 .header .hamburguer:before,
 .header .hamburguer:after {
-    background-color: var(--cor-branca);
+    background-color: var(--cor-marrom);
     content: '';
     display: block;
     width: 100%;
@@ -119,6 +123,7 @@
     .header nav input:checked ~ ul {
         display: block;
         border-radius: 20px;
+        border: 2px solid var(--cor-marrom)
     }
 
     .header nav {
@@ -130,12 +135,12 @@
 
    .header nav ul {
         display: none;        
-        background-color: var(--cor-fundo-cinza-claro);         
+        background-color: var(--cor-fundo-laranja-claro);         
         padding: 20px;       
     }
     
     .header nav li a {
-        color: var(--cor-branca);
+        color: var(--cor-marrom);
         text-align: center;                
         padding: 20px;
         display: block;
