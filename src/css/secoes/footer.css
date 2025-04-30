@@ -2,7 +2,7 @@
 .footer {
     margin-top: 7rem;
     text-align: center;
-    background-color: var(--cor-fundo-laranja-claro);
+    background-color: var(--cor-secundaria);
     border-top: 2px solid var(--cor-marrom);
 }
 

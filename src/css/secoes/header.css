@@ -1,6 +1,6 @@
 .header {
     padding: 30px 15px;
-    background-color: var(--cor-fundo-laranja-claro);
+    background-color: var(--cor-secundaria);
     border-bottom: 2px solid var(--cor-marrom);
 }
 
@@ -135,7 +135,7 @@
 
    .header nav ul {
         display: none;        
-        background-color: var(--cor-fundo-laranja-claro);         
+        background-color: var(--cor-secundaria);         
         padding: 20px;       
     }
     
