@@ -38,7 +38,9 @@
 .projetos .container-projetos .projeto img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    height: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .projetos .container-projetos .projeto .informacoes-projeto {
